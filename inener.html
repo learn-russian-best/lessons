@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+  <title>Document</title>
+</head>
+
+<body>
+  <!--Start Settings Box-->
+  <div class="settings-box">
+    <div class="toggle-settings">
+      <i class="fas fa-cog"></i>
+    </div>
+    <div class="setting-container">
+      <div class="option-box">
+        <h4>Colors</h4>
+        <ul class="colors-list">
+          <li class="active" data-color="#ff9800"></li>
+          <li data-color="#e91e63"></li>
+          <li data-color="#009688"></li>
+          <li data-color="#03a9f4"></li>
+          <li data-color="#4caf50"></li>
+        </ul>
+      </div>
+      <div class="option-box">
+        <h4>Random Background</h4>
+        <div class="random-backgrounds">
+          <span class="yes active" data-background="yes">Yes</span>
+          <span class="no" data-background="no">No</span>
+        </div>
+      </div>
+      <div class="option-box">
+        <h4>Show Bullets</h4>
+        <div class="bullets-option">
+          <span class="yes active" data-display="show">Yes</span>
+          <span class="no" data-display="hide">No</span>
+        </div>
+      </div>
+      <button class="reset-option">Reset Option</button>
+    </div>
+  </div>
+  <!--End Settings Box-->
+  <!--Start Nav Bullets-->
+  <div class="nav-bullets">
+    <div class="bullet" data-section=".about-us">
+      <div class="tooltip">About Us</div>
+    </div>
+    <div class="bullet" data-section=".skills">
+      <div class="tooltip">Our Skills</div>
+    </div>
+    <div class="bullet" data-section=".gallery">
+      <div class="tooltip">Our Gallery</div>
+    </div>
+    <div class="bullet" data-section=".timeline">
+      <div class="tooltip">TimeLine</div>
+    </div>
+    <div class="bullet" data-section=".features">
+      <div class="tooltip">Features</div>
+    </div>
+    <div class="bullet" data-section=".testimonials">
+      <div class="tooltip">Testimonials</div>
+    </div>
+  </div>
+  <!--End Nav Bullets-->
+  <!--Start Landing Page-->
+  <div class="landing-page">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="header-area">
+        <div class="logo">learn_russian_best</div>
+        <div class="links-container">
+          <ul class="links">
+            <li>
+              <a href="#" class="active" data-section=".about-us">About Us</a>
+            </li>
+            <li><a href="#" data-section=".skills">Skills</a></li>
+            <li><a href="#" data-section=".gallery">Gallery</a></li>
+            <li><a href="#" data-section=".timeline">Timeline</a></li>
+            <li><a href="#" data-section=".features">Features</a></li>
+            <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+          </ul>
+          <button class="toggle-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="introduction-text">
+      <h1>We Are <span>Creative</span> Agency</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+        nihil vitae praesentium, esse optio exercitationem repellendus
+        molestiae? Tempore, fuga impedit!
+      </p>
+    </div>
+  </div>
+  <!--End Landing Page-->
+  <!--Start About us-->
+  <div class="container">
+    <div class="about-us">
+      <div class="info-box">
+        <h2>About Us</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
+          vero tempora impedit incidunt. Quis accusantium necessitatibus, rem
+          totam nulla, impedit commodi ducimus consectetur perspiciatis iusto
+          molestiae temporibus. Temporibus, neque debitis.
+        </p>
+      </div>
+      <div class="image-box">
+        <img src="images/illustration.jpg" alt="" />
+      </div>
+    </div>
+  </div>
+  <!-- End about us -->
+  <!--Start Out Skills-->
+
+  <div class="skills">
+    <div class="container">
+      <h2>Our Siklls</h2>
+      <div class="skill-box">
+        <div class="name">Nominative case</div>
+        <div class="skill-progress">
+          <span data-progress="80%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="name">Genitive case</div>
+        <div class="skill-progress">
+          <span data-progress="70%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="name">Dative case</div>
+        <div class="skill-progress">
+          <span data-progress="90%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="name">Instrumental case</div>
+        <div class="skill-progress">
+          <span data-progress="80%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="name">Accusative case</div>
+        <div class="skill-progress">
+          <span data-progress="90%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="name">Prepositional case</div>
+        <div class="skill-progress">
+          <span data-progress="90%"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End Out Skills-->
+  <!--Start Gallery-->
+  <div class="gallery">
+    <div class="container">
+      <h2>Our Gallery</h2>
+      <div class="images-box">
+        <img src="images/nominative.png" alt="Nominative" />
+        <img src="images/gentive.png" alt="Gentive" />
+        <img src="images/dative.png" alt="Dative" />
+        <img src="images/accusative.png" alt="Accusative" />
+        <img src="images/instrumental.png" alt="Instrumental" />
+        <img src="images/prepositional.png" alt="Prepositional" />
+      </div>
+      <div class="book">
+        <form action="https://taplink.cc/payments/ec5650/bankcard/">
+          <button>Book Now</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!--End Gallery-->
+  <!--Start Timeline-->
+  <div class="timeline">
+    <div class="container">
+      <div class="timeline-content">
+        <div class="year">2018</div>
+        <div class="left">
+          <div class="content">
+            <h3>Testing Heading</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+              expedita qui reiciendis eius mollitia dignissimos odit aperiam
+              voluptatibus, veritatis cum quia iste, sequi officia. Aperiam,
+              deleniti! Eveniet impedit blanditiis minus!
+            </p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="right">
+          <div class="content">
+            <h3>Testing Heading</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+              expedita qui reiciendis eius mollitia dignissimos odit aperiam
+              voluptatibus, veritatis cum quia iste, sequi officia. Aperiam,
+              deleniti! Eveniet impedit blanditiis minus!
+            </p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="year">2016</div>
+        <div class="left">
+          <div class="content">
+            <h3>Testing Heading</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+              expedita qui reiciendis eius mollitia dignissimos odit aperiam
+              voluptatibus, veritatis cum quia iste, sequi officia. Aperiam,
+              deleniti! Eveniet impedit blanditiis minus!
+            </p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="left">
+          <div class="content">
+            <h3>Testing Heading</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+              expedita qui reiciendis eius mollitia dignissimos odit aperiam
+              voluptatibus, veritatis cum quia iste, sequi officia. Aperiam,
+              deleniti! Eveniet impedit blanditiis minus!
+            </p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="right">
+          <div class="content">
+            <h3>Testing Heading</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+              expedita qui reiciendis eius mollitia dignissimos odit aperiam
+              voluptatibus, veritatis cum quia iste, sequi officia. Aperiam,
+              deleniti! Eveniet impedit blanditiis minus!
+            </p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+  <!--End Timeline-->
+  <!--Start Features-->
+  <div class="features">
+    <h2>Our Features</h2>
+    <div class="container">
+      <div class="feat-box">
+        <img src="./images/css.png" alt="" />
+        <h4>Development</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+        </p>
+      </div>
+
+      <div class="feat-box">
+        <img src="./images/css.png" alt="" />
+        <h4>Development</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+        </p>
+      </div>
+
+      <div class="feat-box">
+        <img src="./images/css.png" alt="" />
+        <h4>Development</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+        </p>
+      </div>
+
+      <div class="feat-box">
+        <img src="./images/css.png" alt="" />
+        <h4>Development</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+        </p>
+      </div>
+
+      <div class="feat-box">
+        <img src="./images/css.png" alt="" />
+        <h4>Development</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+        </p>
+      </div>
+
+      <div class="feat-box">
+        <img src="./images/css.png" alt="" />
+        <h4>Development</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+        </p>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <!--End Features-->
+  <!--Start Testimonials-->
+  <div class="testimonials">
+    <div class="container">
+      <h2>Testimonials</h2>
+      <div class="ts-box">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
+          omnis sunt recusandae.
+        </p>
+        <div class="person-info">
+          <img src="https://via.placeholder.com/80/ddd" alt="r" />
+          <h4>Маргарита Владимировна</h4>
+          <p>CEO At Company</p>
+        </div>
+      </div>
+      <div class="ts-box">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
+          omnis sunt recusandae.
+        </p>
+        <div class="person-info">
+          <img src="https://via.placeholder.com/80/aaa" alt="a" />
+          <h4>administrative assistant</h4>
+          <p>CEO At Company</p>
+        </div>
+      </div>
+      <div class="ts-box">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
+          omnis sunt recusandae.
+        </p>
+        <div class="person-info">
+          <img src="https://via.placeholder.com/80/eee" />
+          <h4>Professor</h4>
+          <p>CEO At Company</p>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+  <!--End Testimonials-->
+  <!--Start Contact Us-->
+  <div class="contact">
+    <div class="overlay"></div>
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <div class="left">
+          <input type="text" placeholder="Your Name" name="username" />
+          <input type="text" placeholder="Your Phone" name="phone" />
+          <input type="email" placeholder="Your Email" name="email" />
+          <input type="text" placeholder="Subject" name="subject" />
+        </div>
+        <div class="right">
+          <textarea name="message" placeholder="Your Message"></textarea>
+          <input type="submit" value="Send" />
+        </div>
+      </form>
+    </div>
+  </div>
+  <!--End Contact Us-->
+  <!--Start Footer-->
+  <div class="footer">
+    Created By <span>Rami</span> And All Reseved To Маргарита Владимировна
+  </div>
+  <!--End Footer-->
+  <script src="./javlio.js"></script>
+</body>
+
+</html>
