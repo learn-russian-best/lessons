@@ -6,7 +6,7 @@
 }
 body {
   font-family: "Baloo Tamma 2", cursive;
-  height: 4000px;
+  margin:0;
 }
 .container {
   padding-left: 15px;
