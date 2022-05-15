@@ -166,7 +166,7 @@ body {
 /*Start landing Page*/
 .landing-page {
   min-height: 100vh;
-  background-image: url("../images/backlink.png");
+  background-image: url("backlink.png");
   background-size: cover;
   position: relative;
 }
