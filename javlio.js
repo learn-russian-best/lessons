@@ -90,10 +90,10 @@ randomBckgroundElements.forEach(function (span) {
 let landingPage = document.querySelector(".landing-page");
 // Get Array Of Images
 let imagesArray = [
-  "learn.jpg",
-  "moscow.png",
-  "rusgram.jpg",
-  "russianconcept.jpg",
+  "https://raw.githubusercontent.com/learn-russian-best/lessons/main/learn.jpg",
+  "https://raw.githubusercontent.com/learn-russian-best/lessons/main/moscow.png",
+  "https://raw.githubusercontent.com/learn-russian-best/lessons/main/rusgram.png",
+  "https://raw.githubusercontent.com/learn-russian-best/lessons/main/russianconcept.jpg",
 ];
 
 // Function To Randomize Images
